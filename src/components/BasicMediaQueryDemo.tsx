@@ -22,7 +22,7 @@ export const BasicMediaQueryDemo = () => {
 
       <div className="space-y-6">
         {/* Current Size Display */}
-        <div className="p-12 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl text-center">
+        <div className="p-12 bg-linear-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl text-center">
           <div className="text-6xl mb-4">
             {isSmall && '📱'}
             {isMedium && '💻'}
