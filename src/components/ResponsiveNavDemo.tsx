@@ -43,7 +43,7 @@ export const ResponsiveNavDemo = () => {
               {isMobileMenuOpen && (
                 <div className="bg-white dark:bg-gray-800 animate-scale-in">
                   {navItems.map((item) => (
-                    <div
+                    <a
                       key={item.id}
                       href={item.href}
                       className="block px-6 py-4 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
