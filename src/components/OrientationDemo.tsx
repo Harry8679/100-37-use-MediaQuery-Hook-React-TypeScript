@@ -15,7 +15,7 @@ export const OrientationDemo = () => {
         <div className={`p-12 rounded-xl text-center transition-all ${
           isPortrait
             ? 'bg-linear-to-br from-orange-100 to-red-100 dark:from-orange-900/20 dark:to-red-900/20'
-            : 'bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20'
+            : 'bg-linear-to-br from-blue-100 to-purple-100 dark:from-blue-900/20 dark:to-purple-900/20'
         }`}>
           <div className="text-7xl mb-4">
             {isPortrait ? '📱' : '📱'}
