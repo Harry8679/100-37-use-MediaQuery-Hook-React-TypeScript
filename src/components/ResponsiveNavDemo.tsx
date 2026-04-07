@@ -67,7 +67,7 @@ export const ResponsiveNavDemo = () => {
               </div>
               <div className="flex items-center gap-6">
                 {navItems.map((item) => (
-                  
+                  <a
                     key={item.id}
                     href={item.href}
                     className="flex items-center gap-2 px-4 py-2 text-white hover:bg-white/20 rounded-lg transition-colors font-semibold"
