@@ -86,7 +86,7 @@ export const OrientationDemo = () => {
           <h4 className="font-bold text-gray-800 dark:text-white mb-4">
             Exemple d'utilisation :
           </h4>
-          <div className={`aspect-video bg-gradient-to-br rounded-lg flex items-center justify-center transition-all ${
+          <div className={`aspect-video bg-linear-to-br rounded-lg flex items-center justify-center transition-all ${
             isPortrait
               ? 'from-orange-400 to-red-500'
               : 'from-blue-400 to-purple-500'
