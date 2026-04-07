@@ -30,7 +30,7 @@ export const AdaptiveLayoutDemo = () => {
 
       <div className="space-y-6">
         {/* Layout Info */}
-        <div className="p-4 bg-gradient-to-r from-pink-100 to-purple-100 dark:from-pink-900/20 dark:to-purple-900/20 rounded-lg">
+        <div className="p-4 bg-linear-to-r from-pink-100 to-purple-100 dark:from-pink-900/20 dark:to-purple-900/20 rounded-lg">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <span className="text-3xl">
