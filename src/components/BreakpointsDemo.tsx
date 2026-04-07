@@ -27,7 +27,7 @@ export const BreakpointsDemo = () => {
 
       <div className="space-y-6">
         {/* Current Breakpoint */}
-        <div className="p-8 bg-gradient-to-br from-purple-100 to-pink-100 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl text-center">
+        <div className="p-8 bg-linear-to-br from-purple-100 to-pink-100 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl text-center">
           <div className="text-5xl mb-4">{currentBreakpoint?.icon}</div>
           <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">
             {currentBreakpoint?.name.toUpperCase()}
