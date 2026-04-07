@@ -57,7 +57,7 @@ export const AdaptiveLayoutDemo = () => {
           {cards.map((card) => (
             <div
               key={card.id}
-              className="p-6 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl hover:scale-105 transition-transform"
+              className="p-6 bg-linear-to-br from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl hover:scale-105 transition-transform"
             >
               <div className="text-5xl mb-3 text-center">{card.image}</div>
               <h4 className="font-bold text-gray-800 dark:text-white mb-2 text-center">
