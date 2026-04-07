@@ -17,7 +17,7 @@ export const DeviceDetectionDemo = () => {
 
       <div className="space-y-6">
         {/* Device Type Display */}
-        <div className="p-8 bg-gradient-to-br from-green-100 to-blue-100 dark:from-green-900/20 dark:to-blue-900/20 rounded-xl text-center">
+        <div className="p-8 bg-linear-to-br from-green-100 to-blue-100 dark:from-green-900/20 dark:to-blue-900/20 rounded-xl text-center">
           <div className="text-6xl mb-4">
             {isMobile && '📱'}
             {isTablet && '📱💻'}
