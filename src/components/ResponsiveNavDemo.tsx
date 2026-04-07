@@ -22,7 +22,7 @@ export const ResponsiveNavDemo = () => {
 
       <div className="space-y-6">
         {/* Navigation */}
-        <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl shadow-lg overflow-hidden">
+        <div className="bg-linear-to-r from-blue-500 to-purple-600 rounded-xl shadow-lg overflow-hidden">
           {isMobile ? (
             // Mobile Navigation
             <div>
